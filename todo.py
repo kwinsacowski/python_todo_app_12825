@@ -1,9 +1,9 @@
 tasks = []
 
-print("Welcome! Keep track of all your tasks big or small, we'll make a list and check it all!")
+print("\nWelcome! Keep track of all your tasks big or small, we'll make a list and check it all!")
 
 while True:
-    option = input("\nPlease select an Action (add/view/delete/quit) ").lower()
+    option = input("Please select an Action (add/view/delete/quit) ").lower()
 
     if option == "add":
         while True:
