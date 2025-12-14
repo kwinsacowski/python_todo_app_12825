@@ -1,6 +1,7 @@
 📝 To-Do List Application
 
 Overview
+    
     This is a simple command-line To-Do List application built in Python. Users can add, view, and delete tasks interactively. The project demonstrates Python concepts such as functions, control flow, loops, input validation, and error handling.
 
 Table of Contents
