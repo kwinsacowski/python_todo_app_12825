@@ -61,9 +61,8 @@ def delete_task(tasks):
             else:
                 print("Invalid task number.")
                 continue
-            delete_another = input("Would you like to delete another task? (yes/no) ").lower().strip()
-            if delete_another.lower().strip() != "yes":
-                break
+            if not yes_no_prompt("Would you like to delete another task? (yes/no) "):
+                return
 
 def yes_no_prompt(message):
     while True:
